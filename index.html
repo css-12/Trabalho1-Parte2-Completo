@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lançamentos da Plataforma</title>
+
+    <style>
+        body{
+            background-color: whitesmoke;
+        }
+        h1{
+            color: rgb(238, 26, 26);
+            font-size: 350%;
+            line-height: 100%;
+            text-align: center;
+        }
+        h2{
+            color: black;
+            padding-top: 8%;
+            padding-bottom: 4%;
+        }
+        table{
+            text-align: center;
+            border: rgb(238, 26, 26);
+            border-style: inset;
+            border-radius: 8px;
+            width: 60%;
+        }
+        h3{
+            color: black;
+            text-align: left;
+            padding-top: 8%;
+            font-size: 150%;
+        }
+        input{
+            width: 50%;
+            box-sizing: border-box;
+            padding: 8px 12px;
+        }
+        button{
+            background-color: whitesmoke;
+            color: rgb(238, 26, 26);
+            text-align: center;
+            border-color: rgb(238, 26, 26);
+            font-size: 20px;
+            cursor: pointer;
+            border-radius: 20px;
+        }
+        p{
+            padding-top: 50px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="main">
+        <h1>Lançamentos</h1>
+
+        <div>
+            <h2>Novembro 2020</h2>
+
+            <table border="1">
+                <tbody>
+                    <tr>
+                        <th>Data</th>
+                        <th>Título</th>
+                        <th>Categoria</th>
+                        <th>Classificação Indicativa</th>
+                    </tr>
+                    <tr>
+                        <td>05/11</td>
+                        <td>Quem Matou María Marta?</td>
+                        <td>Documentário</td>
+                        <td>12+</td>
+                    </tr>
+                    <tr>
+                        <td>10/11</td>
+                        <td>Dash & Lily</td>
+                        <td>Série</td>
+                        <td>12+</td>
+                    </tr>
+                    <tr>
+                        <td>10/11</td>
+                        <td>The Crown (4ª Temporada)</td>
+                        <td>Série</td>
+                        <td>14+</td>
+                    </tr>
+                    <tr>
+                        <td>13/11</td>
+                        <td>Uma Invenção de Natal</td>
+                        <td>Filme</td>
+                        <td>10+</td>
+                    </tr>
+                    <tr>
+                        <td>25/11</td>
+                        <td>Crônicas de Natal: Parte Dois</td>
+                        <td>Filme</td>
+                        <td>10+</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Adicionar Lançamentos</h3>
+
+            <br>
+
+            <input type="text" name="data" placeholder="Informe uma data (dia e mês)">
+            
+            <br><br>
+
+            <input type="text" name="titulo" placeholder="Informe um título">
+            
+            <br><br>
+
+            <input type="text" name="categoria" placeholder="Informe a categoria (filme, série, documentário...)">
+            
+            <br><br>
+
+            <input type="text" name="cindicativa" placeholder="Informe a classificação indicativa">
+
+            <br><br><br><br>
+
+            <button>Adicionar Lançamento</button>
+        </div>
+
+        <p><h4>Para excluir alguma informação, clique duas vezes dentro do campo.</h4></p>
+    </div>
+
+    <script src = "script.js"></script>
+    
+</body>
+</html>
